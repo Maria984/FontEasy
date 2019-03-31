@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "972781568916",
+    "firebase_url": "https://fonteasy.firebaseio.com",
+    "project_id": "fonteasy",
+    "storage_bucket": "fonteasy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972781568916:android:bc6a540aab252e9a",
+        "android_client_info": {
+          "package_name": "com.example.fonteasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972781568916-j0aj0um6000a1am7cdlh4k7n7ugvmobv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fonteasy",
+            "certificate_hash": "bd081b136eedadfa7d055c2b4a3a1315c6785f7d"
+          }
+        },
+        {
+          "client_id": "972781568916-5i8euk35mi3oqthonsr77nbqk74jl1nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuf1R6NHrT7SonuFHeeLEuMkkc8I0Mk3I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972781568916-5i8euk35mi3oqthonsr77nbqk74jl1nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

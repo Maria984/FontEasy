@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondotodo"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/fondoblanco"
+        android:layout_width="wrap_content"
+        android:layout_height="675dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/fondob"
+        android:contentDescription="@string/fondob" />
+
+    <include layout="@layout/bottom_sheet_font_query" />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="416dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/naranja1"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+       />
+
+    <LinearLayout
+        android:id="@+id/textview_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="45dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/downloadable_font_applied_text"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:text="Buscar Fuente"
+        android:textColor="@color/colorA"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:id="@+id/volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="0dp"
+        android:onClick="volver"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/atras" />
+
+</android.support.design.widget.CoordinatorLayout>

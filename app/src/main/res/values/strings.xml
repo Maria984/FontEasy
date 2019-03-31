@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FontEasy</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="ideprincipal">IdePrincipal</string>
+    <string name="fondob">fondob</string>
+    <string name="prueba">Prueba</string>
+    <string name="tv1">Primerap</string>
+    <string name="title_activity_screen_uno">ScreenUno</string>
+    <string name="foto">Foto</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="log_out">Log Out</string>
+    <string name="revoke">Revoke</string>
+    <string name="not_close_session">No se pudo cerrar sesión</string>
+    <string name="not_revoke">No se pudo revocar el proceso</string>
+    <string name="title_activity_fuentes">Fuentes</string>
+    <string name="camera_error" />
+    <string name="request">Respuesta</string>
+    <string name="invalid_family_name">Nombre de familia no válido</string>
+    <string name="invalid_input">Input invalida</string>
+    <string name="family_name">Nombre Familia</string>
+    <string name="weight">Peso</string>
+    <string name="width">Ancho</string>
+    <string name="italic">Italica</string>
+    <string name="best_effort">Mejor Esfuerzo (Más cercano)</string>
+    <string name="predefined_font">The pre-downloaded font is used for this part to avoid the overhead of the time until the requested font is downloaded. See "src/main/res/font" directory for usage.</string>
+    <string name="downloadable_font_applied_text">In ornare fringilla vehicula. Ut congue sollicitudin neque, et consequat sapien commodo sed. Aenean a tellus massa. Maecenas tempus erat lectus. Maecenas pretium metus a massa condimentum pretium. Vivamus placerat mollis tortor, a ornare velit.SET PLACERAT UT MASSA ID DAPIBUS.</string>
+    <string name="request_failed">Font request failed with reason code: %1$d</string>
+    <string name="ver_fuente">Ver Fuente</string>
+    <string name="buscar">Buscar</string>
+    <string name="peso">Peso</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="salir">Salir</string>
+
+
+</resources>
